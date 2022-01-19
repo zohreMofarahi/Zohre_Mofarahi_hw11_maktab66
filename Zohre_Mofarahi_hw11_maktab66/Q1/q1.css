@@ -1,0 +1,130 @@
+.body {
+    background: white url(./images/bg-desktop-light.jpg) no-repeat left top;
+    background-size: cover;
+    
+}
+/* #484b6a */
+.dark-mode {
+    background: #292b3a url(./images/bg-desktop-dark.jpg) no-repeat left top;
+    background-size: cover;
+    
+  
+  }
+
+#header {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+#icon {
+    margin-left: 34%;
+    width: 10%;
+    height: 10%;
+    cursor: pointer;
+}
+
+#suny {
+    display: none;
+}
+
+.form {
+    margin-left: 25%;
+   
+}
+
+.input {
+    width: 58%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+ul li {
+    width:39.5%;
+    padding: 12px 40px;
+    background-color: white;
+    margin-left: 23%;
+    position: relative;
+    list-style-type: none;
+    border-bottom: rgb(158, 157, 157) 1px solid;
+    
+}
+
+ul li.checked {
+    
+    color: rgb(80, 78, 78);
+    text-decoration: line-through;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+  }
+
+  .close:hover {
+      cursor: pointer;
+  }
+
+  ul li.checked {
+    margin-right: 1%;
+    text-decoration: line-through;
+  }
+
+.tick {
+    
+    position: absolute;
+    top: 5px;
+    left: 4px;
+    width: 25px;
+    height: 25px;
+   
+    /* background-image: linear-gradient(to right, rgb(3, 130, 248),violet); */
+
+}
+
+
+
+/* 
+.tick:focus {
+    content: x;
+    position: absolute;
+    border: rgb(0, 0, 0) solid 1px;
+    top: 9px;
+    left: 8px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgb(3, 130, 248),violet);
+} */
+
+#filtering {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    width: 41.5%;
+    margin-left: 25%;
+    padding: 1% 1%;
+    border-radius: 2%;
+    font-size: small;
+}
+
+#one {
+    cursor: pointer;
+}
+
+#two {
+    cursor: pointer;
+}
+
+#three {
+    cursor: pointer;
+}
